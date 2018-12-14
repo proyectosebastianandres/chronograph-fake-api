@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "id": "5c13239a5dfc244a590a2a4f",
+      "register_at": "2018-06-18T16:00:00Z",
+      "name": "John Wick",
+      "email": "jhon.wick@email.com",
+      "password": "securepass",
+      "avatar": "https://ui-avatars.com/api/?name=John+Wick"
+    },
+    {
+      "id": "5c1323a8120e6220dfbed595",
+      "register_at": "2018-07-30T15:00:00Z",
+      "name": "Sarah Oswalt",
+      "email": "s.oswalt@email.com",
+      "password": "securepass",
+      "avatar": "https://ui-avatars.com/api/?name=Sarah+Oswalt"
+    },
+    {
+      "id": "5c1324e7bfc527f4c2bdde8e",
+      "register_at": "2018-08-17T13:00:00Z",
+      "name": "Bob Smith",
+      "email": "bob.smith@email.com",
+      "password": "securepass",
+      "avatar": "https://ui-avatars.com/api/?name=Bob+Smith"
+    }
+  ],
+  "projects": [
+    {
+      "id": "5c1325585ab92ff57e5a1359",
+      "userID": "5c13239a5dfc244a590a2a4f",
+      "title": "Map integration",
+      "creation_date": "2018-06-19T10:00:00Z",
+      "estimated_time": "03:30:00",
+      "total_time": "01:01:00"
+    },
+    {
+      "id": "5c1328cc84695a158e6a3e9e",
+      "userID": "5c1323a8120e6220dfbed595",
+      "title": "Write month posts",
+      "creation_date": "2018-07-30T13:40:00Z",
+      "estimated_time": "05:00:00",
+      "total_time": "01:00:00"
+    },
+    {
+      "id": "5c1328d5e7a615850355f484",
+      "userID": "5c1323a8120e6220dfbed595",
+      "title": "Design Summer Campaign",
+      "creation_date": "2018-06-19T10:00:00Z",
+      "estimated_time": "03:30:00",
+      "total_time": "02:50:00"
+    },
+  ],
+  "tasks": [
+    {
+      "id": "5c1327f6bc121d5b046bf6e9",
+      "projectID": "5c1325585ab92ff57e5a1359",
+      "title": "Documentation",
+      "time_records": [
+        {
+          "start_time": "2018-06-19T12:00:00Z",
+          "finish_time": "2018-06-19T13:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "5c1329d63e3d9a3b0dbe9621",
+      "projectID": "5c1328cc84695a158e6a3e9e",
+      "title": "Investigation",
+      "time_records": [
+        {
+          "start_time": "2018-07-30T13:41:00Z",
+          "finish_time": "2018-07-30T14:11:00Z"
+        },
+        {
+          "start_time": "2018-07-30T16:00:00Z",
+          "finish_time": "2018-07-30T16:31:00Z"
+        },
+        {
+          "start_time": "2018-08-30T10:00:00Z",
+          "finish_time": "2018-08-30T11:20:00Z"
+        },
+      ]
+    },
+    {
+      "id": "5c132b18679c49726c270e00",
+      "projectID": "5c1325585ab92ff57e5a1359",
+      "title": "API",
+      "time_records": [
+        {
+          "start_time": "2018-06-20T10:00:00Z",
+          "finish_time": "2018-06-20T11:00:00Z"
+        }
+      ]
+    }
+  ]
+}
